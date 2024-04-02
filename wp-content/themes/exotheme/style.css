@@ -1,0 +1,15 @@
+/*
+Theme Name: Thème Exo
+Theme URI: https://www.monsite.com/monsite
+Author: Rémi
+Author URI: https://www.monsite.com/monsite
+Description: Thème pour l'exercice.
+Version: 1.0
+*/
+
+body {
+    background: #FFFFFF;
+    font-family: "Source Sans Pro";
+    color: #4b5157;
+    margin: 0 auto;
+  }
