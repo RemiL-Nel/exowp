@@ -1,0 +1,176 @@
+[03-Apr-2024 12:50:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 12:50:34 UTC] PHP Stack trace:
+[03-Apr-2024 12:50:34 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 12:50:34 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 12:50:34 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 12:50:34 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 12:50:34 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 12:50:53 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 12:50:53 UTC] PHP Stack trace:
+[03-Apr-2024 12:50:53 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 12:50:53 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 12:50:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 12:50:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 12:50:53 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:00:27 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:00:27 UTC] PHP Stack trace:
+[03-Apr-2024 13:00:27 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:00:27 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:00:27 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:00:27 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:00:27 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:11:22 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:11:22 UTC] PHP Stack trace:
+[03-Apr-2024 13:11:22 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:11:22 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:11:22 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:11:22 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:11:22 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:17:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:17:04 UTC] PHP Stack trace:
+[03-Apr-2024 13:17:04 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:17:04 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:17:04 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:17:04 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:17:04 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:17:21 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:17:21 UTC] PHP Stack trace:
+[03-Apr-2024 13:17:21 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:17:21 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:17:21 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:17:21 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:17:21 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:19:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:19:07 UTC] PHP Stack trace:
+[03-Apr-2024 13:19:07 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:19:07 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:19:07 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:19:07 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:19:07 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:19:54 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:19:54 UTC] PHP Stack trace:
+[03-Apr-2024 13:19:54 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:19:54 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:19:54 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:19:54 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:19:54 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:21:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:21:31 UTC] PHP Stack trace:
+[03-Apr-2024 13:21:31 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:21:31 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:21:31 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:21:31 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:21:31 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:22:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:22:01 UTC] PHP Stack trace:
+[03-Apr-2024 13:22:01 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:22:01 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:22:01 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:22:01 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:22:01 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:23:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:23:10 UTC] PHP Stack trace:
+[03-Apr-2024 13:23:10 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:23:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:23:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:23:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:23:10 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:25:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:25:08 UTC] PHP Stack trace:
+[03-Apr-2024 13:25:08 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:25:08 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:25:08 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:25:08 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:25:08 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:25:47 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:25:47 UTC] PHP Stack trace:
+[03-Apr-2024 13:25:47 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:25:47 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:25:47 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:25:47 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:25:47 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 13:36:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 13:36:13 UTC] PHP Stack trace:
+[03-Apr-2024 13:36:13 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 13:36:13 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 13:36:13 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 13:36:13 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 13:36:13 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 14:36:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 14:36:48 UTC] PHP Stack trace:
+[03-Apr-2024 14:36:48 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 14:36:48 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 14:36:48 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 14:36:48 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 14:36:48 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 14:37:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 14:37:05 UTC] PHP Stack trace:
+[03-Apr-2024 14:37:05 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 14:37:05 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 14:37:05 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 14:37:05 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 14:37:05 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 14:37:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 14:37:41 UTC] PHP Stack trace:
+[03-Apr-2024 14:37:41 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 14:37:41 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 14:37:41 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 14:37:41 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 14:37:41 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 14:38:29 UTC] PHP Warning:  Attempt to read property "title" on null in C:\wamp64\www\wordpress\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Apr-2024 14:38:29 UTC] PHP Stack trace:
+[03-Apr-2024 14:38:29 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-admin\customize.php:0
+[03-Apr-2024 14:38:29 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\wamp64\www\wordpress\wp-admin\customize.php:302
+[03-Apr-2024 14:38:29 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\plugin.php:517
+[03-Apr-2024 14:38:29 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[03-Apr-2024 14:38:29 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[03-Apr-2024 14:47:38 UTC] PHP Deprecated:  Le fichier Thème sans comments.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de comments.php à votre thème. in C:\wamp64\www\wordpress\wp-includes\functions.php on line 6078
+[03-Apr-2024 14:47:38 UTC] PHP Stack trace:
+[03-Apr-2024 14:47:38 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[03-Apr-2024 14:47:38 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[03-Apr-2024 14:47:38 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:19
+[03-Apr-2024 14:47:38 UTC] PHP   4. include() C:\wamp64\www\wordpress\wp-includes\template-loader.php:106
+[03-Apr-2024 14:47:38 UTC] PHP   5. comments_template($file = *uninitialized*, $separate_comments = *uninitialized*) C:\wamp64\www\wordpress\wp-content\themes\exotheme\single.php:14
+[03-Apr-2024 14:47:38 UTC] PHP   6. require() C:\wamp64\www\wordpress\wp-includes\comment-template.php:1621
+[03-Apr-2024 14:47:38 UTC] PHP   7. _deprecated_file($file = 'Thème sans comments.php', $version = '3.0.0', $replacement = NULL, $message = 'Veuillez inclure un modèle de comments.php à votre thème.') C:\wamp64\www\wordpress\wp-includes\theme-compat\comments.php:9
+[03-Apr-2024 14:47:38 UTC] PHP   8. wp_trigger_error($function_name = '', $message = 'Le fichier Thème sans comments.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de comments.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:5792
+[03-Apr-2024 14:47:38 UTC] PHP   9. trigger_error($message = 'Le fichier Thème sans comments.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de comments.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:6078
+[03-Apr-2024 14:47:38 UTC] PHP Deprecated:  Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème. in C:\wamp64\www\wordpress\wp-includes\functions.php on line 6078
+[03-Apr-2024 14:47:38 UTC] PHP Stack trace:
+[03-Apr-2024 14:47:38 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[03-Apr-2024 14:47:38 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[03-Apr-2024 14:47:38 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:19
+[03-Apr-2024 14:47:38 UTC] PHP   4. include() C:\wamp64\www\wordpress\wp-includes\template-loader.php:106
+[03-Apr-2024 14:47:38 UTC] PHP   5. get_sidebar($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\wordpress\wp-content\themes\exotheme\single.php:20
+[03-Apr-2024 14:47:38 UTC] PHP   6. locate_template($template_names = [0 => 'sidebar.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\wordpress\wp-includes\general-template.php:136
+[03-Apr-2024 14:47:38 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\wordpress/wp-includes/theme-compat/sidebar.php', $load_once = TRUE, $args = []) C:\wamp64\www\wordpress\wp-includes\template.php:745
+[03-Apr-2024 14:47:38 UTC] PHP   8. require_once() C:\wamp64\www\wordpress\wp-includes\template.php:810
+[03-Apr-2024 14:47:38 UTC] PHP   9. _deprecated_file($file = 'Thème sans sidebar.php', $version = '3.0.0', $replacement = NULL, $message = 'Veuillez inclure un modèle de sidebar.php à votre thème.') C:\wamp64\www\wordpress\wp-includes\theme-compat\sidebar.php:9
+[03-Apr-2024 14:47:38 UTC] PHP  10. wp_trigger_error($function_name = '', $message = 'Le fichier Thème sans sidebar.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:5792
+[03-Apr-2024 14:47:38 UTC] PHP  11. trigger_error($message = 'Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:6078
+[03-Apr-2024 14:48:04 UTC] PHP Deprecated:  Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème. in C:\wamp64\www\wordpress\wp-includes\functions.php on line 6078
+[03-Apr-2024 14:48:04 UTC] PHP Stack trace:
+[03-Apr-2024 14:48:04 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[03-Apr-2024 14:48:04 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[03-Apr-2024 14:48:04 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:19
+[03-Apr-2024 14:48:04 UTC] PHP   4. include() C:\wamp64\www\wordpress\wp-includes\template-loader.php:106
+[03-Apr-2024 14:48:04 UTC] PHP   5. get_sidebar($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\wordpress\wp-content\themes\exotheme\single.php:20
+[03-Apr-2024 14:48:04 UTC] PHP   6. locate_template($template_names = [0 => 'sidebar.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\wordpress\wp-includes\general-template.php:136
+[03-Apr-2024 14:48:04 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\wordpress/wp-includes/theme-compat/sidebar.php', $load_once = TRUE, $args = []) C:\wamp64\www\wordpress\wp-includes\template.php:745
+[03-Apr-2024 14:48:04 UTC] PHP   8. require_once() C:\wamp64\www\wordpress\wp-includes\template.php:810
+[03-Apr-2024 14:48:04 UTC] PHP   9. _deprecated_file($file = 'Thème sans sidebar.php', $version = '3.0.0', $replacement = NULL, $message = 'Veuillez inclure un modèle de sidebar.php à votre thème.') C:\wamp64\www\wordpress\wp-includes\theme-compat\sidebar.php:9
+[03-Apr-2024 14:48:04 UTC] PHP  10. wp_trigger_error($function_name = '', $message = 'Le fichier Thème sans sidebar.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:5792
+[03-Apr-2024 14:48:04 UTC] PHP  11. trigger_error($message = 'Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:6078
+[03-Apr-2024 14:49:01 UTC] PHP Deprecated:  Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème. in C:\wamp64\www\wordpress\wp-includes\functions.php on line 6078
+[03-Apr-2024 14:49:01 UTC] PHP Stack trace:
+[03-Apr-2024 14:49:01 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[03-Apr-2024 14:49:01 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[03-Apr-2024 14:49:01 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:19
+[03-Apr-2024 14:49:01 UTC] PHP   4. include() C:\wamp64\www\wordpress\wp-includes\template-loader.php:106
+[03-Apr-2024 14:49:01 UTC] PHP   5. get_sidebar($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\wordpress\wp-content\themes\exotheme\single.php:20
+[03-Apr-2024 14:49:01 UTC] PHP   6. locate_template($template_names = [0 => 'sidebar.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\wordpress\wp-includes\general-template.php:136
+[03-Apr-2024 14:49:01 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\wordpress/wp-includes/theme-compat/sidebar.php', $load_once = TRUE, $args = []) C:\wamp64\www\wordpress\wp-includes\template.php:745
+[03-Apr-2024 14:49:01 UTC] PHP   8. require_once() C:\wamp64\www\wordpress\wp-includes\template.php:810
+[03-Apr-2024 14:49:01 UTC] PHP   9. _deprecated_file($file = 'Thème sans sidebar.php', $version = '3.0.0', $replacement = NULL, $message = 'Veuillez inclure un modèle de sidebar.php à votre thème.') C:\wamp64\www\wordpress\wp-includes\theme-compat\sidebar.php:9
+[03-Apr-2024 14:49:01 UTC] PHP  10. wp_trigger_error($function_name = '', $message = 'Le fichier Thème sans sidebar.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:5792
+[03-Apr-2024 14:49:01 UTC] PHP  11. trigger_error($message = 'Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:6078

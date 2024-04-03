@@ -13,3 +13,26 @@ body {
     color: #4b5157;
     margin: 0 auto;
   }
+.header {
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+border-bottom: solid 2px black;
+  }
+
+  .headerMenu {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+  }
+  .menu-headermenu-container {
+    width: 100%;
+  }
+  a, .headerlinks {
+    color: inherit;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .ampoule {
+    height: 30px;
+  }
