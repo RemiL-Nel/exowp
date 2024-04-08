@@ -1,16 +1,17 @@
 <?php get_header(); ?>
-<div class="main single">
+<div class="single">
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
-<div class="post">
-<h1 class="post-title"><?php the_title(); ?></h1>
-<p class="post-info">
+<div class="singlePost">
+<h1 class="singlePostTitle"><?php the_title(); ?></h1>
+<p class="singlePostInfo">
 Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_author(); ?>.
 </p>
-<div class="post-content">
+<div class="singlePostContent">
 <?php the_content(); ?>
+<p> Avez vous aimé cet article ? dites le nous en commentaire!</p>
 </div>
-<div class="post-comments">
+<div class="singlePostComments">
 <?php comments_template(); ?>
 </div>
 </div>

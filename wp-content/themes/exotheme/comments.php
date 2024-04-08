@@ -18,15 +18,15 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments" class="comments-area">
+<div class="Comments">
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<h2 class="CommentsTitle">
 			<?php
 			printf(
 				_nx(
-					'One thought on "%2$s"',
-					'%1$s thoughts on "%2$s"',
+					'Un commentaire sur "%2$s"',
+					'%1$s Commentaires sur "%2$s"',
 					get_comments_number(),
 					'comments title',
 					'twentythirteen'
@@ -37,7 +37,7 @@ if ( post_password_required() ) {
 			?>
 		</h2>
 
-		<ol class="comment-list">
+		<ol class="CommentList">
 			<?php
 			wp_list_comments( array(
 				'style'       => 'ol',
@@ -48,16 +48,16 @@ if ( post_password_required() ) {
 		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
-			<nav class="navigation comment-navigation" role="navigation">
+			<nav class="CommentNavigation" role="navigation">
 
-				<h1 class="screen-reader-text section-heading"><?php _e( 'Comment navigation', 'twentythirteen' ); ?></h1>
-				<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'twentythirteen' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'twentythirteen' ) ); ?></div>
+				<h1 class="screenReaderText"><?php _e( 'CommentNavigation', 'twentythirteen' ); ?></h1>
+				<div class="navPrevious"><?php previous_comments_link( __( '&larr; Older Comments', 'twentythirteen' ) ); ?></div>
+				<div class="navNext"><?php next_comments_link( __( 'Newer Comments &rarr;', 'twentythirteen' ) ); ?></div>
 			</nav><!-- .comment-navigation -->
 		<?php endif; // Check for comment navigation ?>
 
 		<?php if ( ! comments_open() && get_comments_number() ) : ?>
-			<p class="no-comments"><?php _e( 'Comments are closed.', 'twentythirteen' ); ?></p>
+			<p class="noComments"><?php _e( 'Comments are closed.', 'twentythirteen' ); ?></p>
 		<?php endif; ?>
 
 	<?php endif; // have_comments() ?>

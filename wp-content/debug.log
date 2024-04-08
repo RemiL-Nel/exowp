@@ -174,3 +174,23 @@
 [03-Apr-2024 14:49:01 UTC] PHP   9. _deprecated_file($file = 'Thème sans sidebar.php', $version = '3.0.0', $replacement = NULL, $message = 'Veuillez inclure un modèle de sidebar.php à votre thème.') C:\wamp64\www\wordpress\wp-includes\theme-compat\sidebar.php:9
 [03-Apr-2024 14:49:01 UTC] PHP  10. wp_trigger_error($function_name = '', $message = 'Le fichier Thème sans sidebar.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:5792
 [03-Apr-2024 14:49:01 UTC] PHP  11. trigger_error($message = 'Le fichier Thème sans sidebar.php est obsolète depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de sidebar.php à votre thème.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:6078
+[04-Apr-2024 08:45:58 UTC] PHP Deprecated:  La fonction wp_update_https_detection_errors est obsolète depuis la version 6.4.0, aucune alternative n’est disponible. in C:\wamp64\www\wordpress\wp-includes\functions.php on line 6078
+[04-Apr-2024 08:45:58 UTC] PHP Stack trace:
+[04-Apr-2024 08:45:58 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\wp-cron.php:0
+[04-Apr-2024 08:45:58 UTC] PHP   2. do_action_ref_array($hook_name = 'wp_site_health_scheduled_check', $args = []) C:\wamp64\www\wordpress\wp-cron.php:191
+[04-Apr-2024 08:45:58 UTC] PHP   3. WP_Hook->do_action($args = []) C:\wamp64\www\wordpress\wp-includes\plugin.php:565
+[04-Apr-2024 08:45:58 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = []) C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:348
+[04-Apr-2024 08:45:58 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:324
+[04-Apr-2024 08:45:58 UTC] PHP   6. WP_Site_Health->perform_test($callback = [0 => class WP_Site_Health { private $is_acceptable_mysql_version = TRUE; private $is_recommended_mysql_version = TRUE; public $is_mariadb = FALSE; private $mysql_server_version = '8.2.0'; private $mysql_required_version = '5.5'; private $mysql_recommended_version = '8.0'; private $mariadb_recommended_version = '10.4'; public $php_memory_limit = '128M'; public $schedules = [...]; public $crons = [...]; public $last_missed_cron = 'recovery_mode_clean_expired_keys'; public $last_late_cron = NULL; private $timeout_missed_cron = -300; private $timeout_late_cron = 0 }, 1 => 'get_test_https_status']) C:\wamp64\www\wordpress\wp-admin\includes\class-wp-site-health.php:3245
+[04-Apr-2024 08:45:58 UTC] PHP   7. WP_Site_Health->get_test_https_status() C:\wamp64\www\wordpress\wp-admin\includes\class-wp-site-health.php:194
+[04-Apr-2024 08:45:58 UTC] PHP   8. wp_is_https_supported() C:\wamp64\www\wordpress\wp-admin\includes\class-wp-site-health.php:1633
+[04-Apr-2024 08:45:58 UTC] PHP   9. wp_update_https_detection_errors() C:\wamp64\www\wordpress\wp-includes\https-detection.php:75
+[04-Apr-2024 08:45:58 UTC] PHP  10. _deprecated_function($function_name = 'wp_update_https_detection_errors', $version = '6.4.0', $replacement = *uninitialized*) C:\wamp64\www\wordpress\wp-includes\deprecated.php:5989
+[04-Apr-2024 08:45:58 UTC] PHP  11. wp_trigger_error($function_name = '', $message = 'La fonction wp_update_https_detection_errors est <strong>obsolète</strong> depuis la version 6.4.0, aucune alternative n’est disponible.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:5547
+[04-Apr-2024 08:45:58 UTC] PHP  12. trigger_error($message = 'La fonction wp_update_https_detection_errors est obsolète depuis la version 6.4.0, aucune alternative n’est disponible.', $error_level = 16384) C:\wamp64\www\wordpress\wp-includes\functions.php:6078
+[04-Apr-2024 12:02:29 UTC] PHP Warning:  Undefined variable $output in C:\wamp64\www\wordpress\wp-content\themes\exotheme\index.php on line 31
+[04-Apr-2024 12:02:29 UTC] PHP Stack trace:
+[04-Apr-2024 12:02:29 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[04-Apr-2024 12:02:29 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[04-Apr-2024 12:02:29 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:19
+[04-Apr-2024 12:02:29 UTC] PHP   4. include() C:\wamp64\www\wordpress\wp-includes\template-loader.php:106
