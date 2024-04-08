@@ -1,8 +1,13 @@
 <?php 
 
-function mytheme_files() { 
-    wp_enqueue_style('style', get_stylesheet_uri()); 
-    wp_register_script( 'my-script', plugins_url( '/js/script.js' , __FILE__ ) );
-    wp_enqueue_script( 'my-script' );
-} 
-add_action('wp_enqueue_scripts', 'mytheme_files');
+function load_script() {
+    wp_enqueue_style('style-theme', get_stylesheet_uri() );
+    wp_enqueue_script(
+        'theme-script',
+        get_template_directory_uri() . '/assets/js/script.js', 
+        array('jquery'), 
+        '1.0.0', 
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'load_script');

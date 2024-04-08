@@ -22,6 +22,7 @@ $the_query = new WP_Query( 'posts_per_page=10' ); ?>
   <ul class="slides-container" id="slides-container">
 <?php $args = array(
 	'numberposts'	=> 5,
+  'category_name' => 'carousel',
 );
 $my_posts = get_posts( $args );
 
