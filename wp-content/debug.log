@@ -507,3 +507,376 @@ Stack trace:
 #10 C:\wamp64\www\exowp\wp-cron.php(191): do_action_ref_array('do_pings', Array)
 #11 {main}
   thrown in C:\wamp64\www\exowp\wp-includes\comment.php on line 2833
+[08-Apr-2024 14:35:50 UTC] PHP Warning:  Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\wamp64\www\exowp\wp-includes\update.php on line 724
+[08-Apr-2024 14:35:50 UTC] PHP Stack trace:
+[08-Apr-2024 14:35:50 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[08-Apr-2024 14:35:50 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[08-Apr-2024 14:35:50 UTC] PHP   3. do_action($hook_name = 'load-themes.php') C:\wamp64\www\exowp\wp-admin\admin.php:385
+[08-Apr-2024 14:35:50 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[08-Apr-2024 14:35:50 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[08-Apr-2024 14:35:50 UTC] PHP   6. wp_update_themes($extra_stats = '') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[08-Apr-2024 14:35:50 UTC] PHP   7. trigger_error($message = 'Une erreur imprévue s’est produite. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.)', $error_level = 512) C:\wamp64\www\exowp\wp-includes\update.php:724
+[08-Apr-2024 14:35:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-includes\update.php:724) in C:\wamp64\www\exowp\wp-admin\admin-header.php on line 9
+[08-Apr-2024 14:35:50 UTC] PHP Stack trace:
+[08-Apr-2024 14:35:50 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[08-Apr-2024 14:35:50 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:246
+[08-Apr-2024 14:35:50 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') C:\wamp64\www\exowp\wp-admin\admin-header.php:9
+[08-Apr-2024 14:35:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-includes\update.php:724) in C:\wamp64\www\exowp\wp-includes\option.php on line 1486
+[08-Apr-2024 14:35:50 UTC] PHP Stack trace:
+[08-Apr-2024 14:35:50 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[08-Apr-2024 14:35:50 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:246
+[08-Apr-2024 14:35:50 UTC] PHP   3. wp_user_settings() C:\wamp64\www\exowp\wp-admin\admin-header.php:86
+[08-Apr-2024 14:35:50 UTC] PHP   4. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1744122950, $path = '/exowp/', $domain = '', $secure = FALSE) C:\wamp64\www\exowp\wp-includes\option.php:1486
+[08-Apr-2024 14:35:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-includes\update.php:724) in C:\wamp64\www\exowp\wp-includes\option.php on line 1487
+[08-Apr-2024 14:35:50 UTC] PHP Stack trace:
+[08-Apr-2024 14:35:50 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[08-Apr-2024 14:35:50 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:246
+[08-Apr-2024 14:35:50 UTC] PHP   3. wp_user_settings() C:\wamp64\www\exowp\wp-admin\admin-header.php:86
+[08-Apr-2024 14:35:50 UTC] PHP   4. setcookie($name = 'wp-settings-time-1', $value = 1712586950, $expires_or_options = 1744122950, $path = '/exowp/', $domain = '', $secure = FALSE) C:\wamp64\www\exowp\wp-includes\option.php:1487
+[09-Apr-2024 07:51:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mw_add_menu" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#3 C:\wamp64\www\exowp\wp-admin\menu.php(422): require_once('C:\\wamp64\\www\\e...')
+#4 C:\wamp64\www\exowp\wp-admin\admin.php(158): require('C:\\wamp64\\www\\e...')
+#5 C:\wamp64\www\exowp\wp-admin\index.php(10): require_once('C:\\wamp64\\www\\e...')
+#6 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 07:51:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 07:51:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 07:52:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 07:52:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 07:52:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 07:55:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 08:09:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wm_area_manager_admin" not found or invalid function name in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\exowp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\exowp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\exowp\wp-admin\admin.php(259): do_action('appearance_page...')
+#3 C:\wamp64\www\exowp\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\e...')
+#4 {main}
+  thrown in C:\wamp64\www\exowp\wp-includes\class-wp-hook.php on line 324
+[09-Apr-2024 11:31:58 UTC] PHP Deprecated:  La fonction wp_update_https_detection_errors est obsolète depuis la version 6.4.0, aucune alternative n’est disponible. in C:\wamp64\www\exowp\wp-includes\functions.php on line 6078
+[09-Apr-2024 11:31:58 UTC] PHP Stack trace:
+[09-Apr-2024 11:31:58 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-cron.php:0
+[09-Apr-2024 11:31:58 UTC] PHP   2. do_action_ref_array($hook_name = 'wp_site_health_scheduled_check', $args = []) C:\wamp64\www\exowp\wp-cron.php:191
+[09-Apr-2024 11:31:58 UTC] PHP   3. WP_Hook->do_action($args = []) C:\wamp64\www\exowp\wp-includes\plugin.php:565
+[09-Apr-2024 11:31:58 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = []) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 11:31:58 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 11:31:58 UTC] PHP   6. WP_Site_Health->perform_test($callback = [0 => class WP_Site_Health { private $is_acceptable_mysql_version = TRUE; private $is_recommended_mysql_version = TRUE; public $is_mariadb = FALSE; private $mysql_server_version = '8.2.0'; private $mysql_required_version = '5.5'; private $mysql_recommended_version = '8.0'; private $mariadb_recommended_version = '10.4'; public $php_memory_limit = '128M'; public $schedules = [...]; public $crons = [...]; public $last_missed_cron = 'recovery_mode_clean_expired_keys'; public $last_late_cron = NULL; private $timeout_missed_cron = -300; private $timeout_late_cron = 0 }, 1 => 'get_test_https_status']) C:\wamp64\www\exowp\wp-admin\includes\class-wp-site-health.php:3245
+[09-Apr-2024 11:31:58 UTC] PHP   7. WP_Site_Health->get_test_https_status() C:\wamp64\www\exowp\wp-admin\includes\class-wp-site-health.php:194
+[09-Apr-2024 11:31:58 UTC] PHP   8. wp_is_https_supported() C:\wamp64\www\exowp\wp-admin\includes\class-wp-site-health.php:1633
+[09-Apr-2024 11:31:58 UTC] PHP   9. wp_update_https_detection_errors() C:\wamp64\www\exowp\wp-includes\https-detection.php:75
+[09-Apr-2024 11:31:58 UTC] PHP  10. _deprecated_function($function_name = 'wp_update_https_detection_errors', $version = '6.4.0', $replacement = *uninitialized*) C:\wamp64\www\exowp\wp-includes\deprecated.php:5989
+[09-Apr-2024 11:31:58 UTC] PHP  11. wp_trigger_error($function_name = '', $message = 'La fonction wp_update_https_detection_errors est <strong>obsolète</strong> depuis la version 6.4.0, aucune alternative n’est disponible.', $error_level = 16384) C:\wamp64\www\exowp\wp-includes\functions.php:5547
+[09-Apr-2024 11:31:58 UTC] PHP  12. trigger_error($message = 'La fonction wp_update_https_detection_errors est obsolète depuis la version 6.4.0, aucune alternative n’est disponible.', $error_level = 16384) C:\wamp64\www\exowp\wp-includes\functions.php:6078
+[09-Apr-2024 13:30:41 UTC] PHP Warning:  Undefined variable $args in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 9
+[09-Apr-2024 13:30:41 UTC] PHP Stack trace:
+[09-Apr-2024 13:30:41 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:30:41 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:30:41 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:30:41 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:30:41 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:30:41 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:30:41 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:30:41 UTC] PHP Warning:  Undefined variable $args in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 10
+[09-Apr-2024 13:30:41 UTC] PHP Stack trace:
+[09-Apr-2024 13:30:41 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:30:41 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:30:41 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:30:41 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:30:41 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:30:41 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:30:41 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:30:41 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 10
+[09-Apr-2024 13:30:41 UTC] PHP Stack trace:
+[09-Apr-2024 13:30:41 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:30:41 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:30:41 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:30:41 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:30:41 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:30:41 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:30:41 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:30:45 UTC] PHP Warning:  Undefined variable $args in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 9
+[09-Apr-2024 13:30:45 UTC] PHP Stack trace:
+[09-Apr-2024 13:30:45 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:30:45 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:30:45 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:30:45 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:30:45 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:30:45 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:30:45 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:30:45 UTC] PHP Warning:  Undefined variable $args in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 10
+[09-Apr-2024 13:30:45 UTC] PHP Stack trace:
+[09-Apr-2024 13:30:45 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:30:45 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:30:45 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:30:45 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:30:45 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:30:45 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:30:45 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:30:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 10
+[09-Apr-2024 13:30:45 UTC] PHP Stack trace:
+[09-Apr-2024 13:30:45 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:30:45 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:30:45 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:30:45 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:30:45 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:30:45 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:30:45 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:35:28 UTC] PHP Warning:  Undefined variable $category in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 24
+[09-Apr-2024 13:35:28 UTC] PHP Stack trace:
+[09-Apr-2024 13:35:28 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:35:28 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:35:28 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:35:28 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:35:28 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:35:28 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:35:28 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:36:06 UTC] PHP Warning:  Undefined variable $args in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 2
+[09-Apr-2024 13:36:06 UTC] PHP Stack trace:
+[09-Apr-2024 13:36:06 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:36:06 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:36:06 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:36:06 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:36:06 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:36:06 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:36:06 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:47:03 UTC] PHP Warning:  Undefined array key "categoryOption" in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 16
+[09-Apr-2024 13:47:03 UTC] PHP Stack trace:
+[09-Apr-2024 13:47:03 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:47:03 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:47:03 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:47:03 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:47:03 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:47:03 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:47:03 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:47:45 UTC] PHP Warning:  Undefined array key "categoryOption" in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 16
+[09-Apr-2024 13:47:45 UTC] PHP Stack trace:
+[09-Apr-2024 13:47:45 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:47:45 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:47:45 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:47:45 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:47:45 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:47:45 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:47:45 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 13:49:06 UTC] PHP Warning:  Undefined array key "categoryOption" in C:\wamp64\www\exowp\wp-content\themes\exotheme\settings.php on line 16
+[09-Apr-2024 13:49:06 UTC] PHP Stack trace:
+[09-Apr-2024 13:49:06 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 13:49:06 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 13:49:06 UTC] PHP   3. do_action($hook_name = 'appearance_page_carousel_display_menu') C:\wamp64\www\exowp\wp-admin\admin.php:259
+[09-Apr-2024 13:49:06 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 13:49:06 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 13:49:06 UTC] PHP   6. carousel_display_menu('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 13:49:06 UTC] PHP   7. include_once() C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:21
+[09-Apr-2024 14:34:58 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:29) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:34:58 UTC] PHP Stack trace:
+[09-Apr-2024 14:34:58 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:34:58 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:35:59 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:35:59 UTC] PHP Stack trace:
+[09-Apr-2024 14:35:59 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:35:59 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:37:00 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:37:00 UTC] PHP Stack trace:
+[09-Apr-2024 14:37:00 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:37:00 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:38:07 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:38:07 UTC] PHP Stack trace:
+[09-Apr-2024 14:38:07 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:38:07 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:39:08 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:39:08 UTC] PHP Stack trace:
+[09-Apr-2024 14:39:08 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:39:08 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:40:20 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:40:20 UTC] PHP Stack trace:
+[09-Apr-2024 14:40:20 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:40:20 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:41:21 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:41:21 UTC] PHP Stack trace:
+[09-Apr-2024 14:41:21 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:41:21 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:43:23 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:43:23 UTC] PHP Stack trace:
+[09-Apr-2024 14:43:23 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-cron.php:0
+[09-Apr-2024 14:43:23 UTC] PHP   2. do_action_ref_array($hook_name = 'wp_version_check', $args = []) C:\wamp64\www\exowp\wp-cron.php:191
+[09-Apr-2024 14:43:23 UTC] PHP   3. WP_Hook->do_action($args = []) C:\wamp64\www\exowp\wp-includes\plugin.php:565
+[09-Apr-2024 14:43:23 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = []) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 14:43:23 UTC] PHP   5. wp_version_check($extra_stats = *uninitialized*, $force_check = *uninitialized*) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 14:43:23 UTC] PHP   6. do_action($hook_name = 'wp_maybe_auto_update') C:\wamp64\www\exowp\wp-includes\update.php:292
+[09-Apr-2024 14:43:23 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[09-Apr-2024 14:43:23 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[09-Apr-2024 14:43:23 UTC] PHP   9. wp_maybe_auto_update('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[09-Apr-2024 14:43:23 UTC] PHP  10. require_once() C:\wamp64\www\exowp\wp-includes\update.php:848
+[09-Apr-2024 14:43:23 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:43:23 UTC] PHP Stack trace:
+[09-Apr-2024 14:43:23 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:43:23 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:45:23 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:45:23 UTC] PHP Stack trace:
+[09-Apr-2024 14:45:23 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:45:23 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:47:24 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:47:24 UTC] PHP Stack trace:
+[09-Apr-2024 14:47:24 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:47:24 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:49:25 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:49:25 UTC] PHP Stack trace:
+[09-Apr-2024 14:49:25 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:49:25 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:52:58 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:52:58 UTC] PHP Stack trace:
+[09-Apr-2024 14:52:58 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:0
+[09-Apr-2024 14:52:58 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\admin-ajax.php:36
+[09-Apr-2024 14:52:59 UTC] PHP Fatal error:  Cannot redeclare add_options_page() (previously declared in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:27) in C:\wamp64\www\exowp\wp-admin\includes\plugin.php on line 1612
+[09-Apr-2024 14:52:59 UTC] PHP Stack trace:
+[09-Apr-2024 14:52:59 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[09-Apr-2024 14:52:59 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[09-Apr-2024 14:52:59 UTC] PHP   3. require_once() C:\wamp64\www\exowp\wp-admin\admin.php:97
+[11-Apr-2024 12:53:35 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php on line 29
+[11-Apr-2024 12:53:35 UTC] PHP Stack trace:
+[11-Apr-2024 12:53:35 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[11-Apr-2024 12:53:35 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[11-Apr-2024 12:53:35 UTC] PHP   3. require() C:\wamp64\www\exowp\wp-admin\admin.php:158
+[11-Apr-2024 12:53:35 UTC] PHP   4. require_once() C:\wamp64\www\exowp\wp-admin\menu.php:422
+[11-Apr-2024 12:53:35 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) C:\wamp64\www\exowp\wp-admin\includes\menu.php:161
+[11-Apr-2024 12:53:35 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[11-Apr-2024 12:53:35 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[11-Apr-2024 12:53:35 UTC] PHP   8. change_carousel_category('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[11-Apr-2024 12:53:52 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php on line 29
+[11-Apr-2024 12:53:52 UTC] PHP Stack trace:
+[11-Apr-2024 12:53:52 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[11-Apr-2024 12:53:52 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[11-Apr-2024 12:53:52 UTC] PHP   3. require() C:\wamp64\www\exowp\wp-admin\admin.php:158
+[11-Apr-2024 12:53:52 UTC] PHP   4. require_once() C:\wamp64\www\exowp\wp-admin\menu.php:422
+[11-Apr-2024 12:53:52 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) C:\wamp64\www\exowp\wp-admin\includes\menu.php:161
+[11-Apr-2024 12:53:52 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[11-Apr-2024 12:53:52 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[11-Apr-2024 12:53:52 UTC] PHP   8. change_carousel_category('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[11-Apr-2024 12:57:16 UTC] PHP Parse error:  Unmatched '}' in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php on line 42
+[11-Apr-2024 12:57:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Apr-2024 12:57:16 UTC] PHP Stack trace:
+[11-Apr-2024 12:57:16 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\exowp\wp-includes\class-wp-fatal-error-handler.php:0
+[11-Apr-2024 12:57:16 UTC] PHP   2. WP_Recovery_Mode->handle_error($error = ['type' => 4, 'message' => 'Unmatched \'}\'', 'file' => 'C:\\wamp64\\www\\exowp\\wp-content\\themes\\exotheme\\functions.php', 'line' => 42]) C:\wamp64\www\exowp\wp-includes\class-wp-fatal-error-handler.php:55
+[11-Apr-2024 12:57:16 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'Unmatched \'}\'', 'file' => 'C:\\wamp64\\www\\exowp\\wp-content\\themes\\exotheme\\functions.php', 'line' => 42], $extension = ['type' => 'theme', 'slug' => 'exotheme']) C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode.php:185
+[11-Apr-2024 12:57:16 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'Unmatched \'}\'', 'file' => 'C:\\wamp64\\www\\exowp\\wp-content\\themes\\exotheme\\functions.php', 'line' => 42], $extension = ['type' => 'theme', 'slug' => 'exotheme']) C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode-email-service.php:62
+[11-Apr-2024 12:57:16 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'exotheme']) C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode-email-service.php:150
+[11-Apr-2024 12:57:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[11-Apr-2024 12:57:16 UTC] PHP Stack trace:
+[11-Apr-2024 12:57:16 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\exowp\wp-includes\class-wp-fatal-error-handler.php:0
+[11-Apr-2024 12:57:16 UTC] PHP   2. WP_Recovery_Mode->handle_error($error = ['type' => 4, 'message' => 'Unmatched \'}\'', 'file' => 'C:\\wamp64\\www\\exowp\\wp-content\\themes\\exotheme\\functions.php', 'line' => 42]) C:\wamp64\www\exowp\wp-includes\class-wp-fatal-error-handler.php:55
+[11-Apr-2024 12:57:16 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'Unmatched \'}\'', 'file' => 'C:\\wamp64\\www\\exowp\\wp-content\\themes\\exotheme\\functions.php', 'line' => 42], $extension = ['type' => 'theme', 'slug' => 'exotheme']) C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode.php:185
+[11-Apr-2024 12:57:16 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'Unmatched \'}\'', 'file' => 'C:\\wamp64\\www\\exowp\\wp-content\\themes\\exotheme\\functions.php', 'line' => 42], $extension = ['type' => 'theme', 'slug' => 'exotheme']) C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode-email-service.php:62
+[11-Apr-2024 12:57:16 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'exotheme']) C:\wamp64\www\exowp\wp-includes\class-wp-recovery-mode-email-service.php:150
+[11-Apr-2024 13:04:41 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php on line 30
+[11-Apr-2024 13:04:41 UTC] PHP Stack trace:
+[11-Apr-2024 13:04:41 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[11-Apr-2024 13:04:41 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[11-Apr-2024 13:04:41 UTC] PHP   3. require() C:\wamp64\www\exowp\wp-admin\admin.php:158
+[11-Apr-2024 13:04:41 UTC] PHP   4. require_once() C:\wamp64\www\exowp\wp-admin\menu.php:422
+[11-Apr-2024 13:04:41 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) C:\wamp64\www\exowp\wp-admin\includes\menu.php:161
+[11-Apr-2024 13:04:41 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[11-Apr-2024 13:04:41 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[11-Apr-2024 13:04:41 UTC] PHP   8. change_carousel_category('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[12-Apr-2024 07:29:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php on line 28
+[12-Apr-2024 07:29:59 UTC] PHP Stack trace:
+[12-Apr-2024 07:29:59 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:29:59 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:29:59 UTC] PHP   3. require() C:\wamp64\www\exowp\wp-admin\admin.php:158
+[12-Apr-2024 07:29:59 UTC] PHP   4. require_once() C:\wamp64\www\exowp\wp-admin\menu.php:422
+[12-Apr-2024 07:29:59 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) C:\wamp64\www\exowp\wp-admin\includes\menu.php:161
+[12-Apr-2024 07:29:59 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[12-Apr-2024 07:29:59 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[12-Apr-2024 07:29:59 UTC] PHP   8. change_carousel_category('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[12-Apr-2024 07:29:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php on line 31
+[12-Apr-2024 07:29:59 UTC] PHP Stack trace:
+[12-Apr-2024 07:29:59 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:29:59 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:29:59 UTC] PHP   3. require() C:\wamp64\www\exowp\wp-admin\admin.php:158
+[12-Apr-2024 07:29:59 UTC] PHP   4. require_once() C:\wamp64\www\exowp\wp-admin\menu.php:422
+[12-Apr-2024 07:29:59 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) C:\wamp64\www\exowp\wp-admin\includes\menu.php:161
+[12-Apr-2024 07:29:59 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[12-Apr-2024 07:29:59 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[12-Apr-2024 07:29:59 UTC] PHP   8. change_carousel_category('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[12-Apr-2024 07:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:31) in C:\wamp64\www\exowp\wp-admin\includes\misc.php on line 1439
+[12-Apr-2024 07:30:00 UTC] PHP Stack trace:
+[12-Apr-2024 07:30:00 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:30:00 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:30:00 UTC] PHP   3. do_action($hook_name = 'admin_init') C:\wamp64\www\exowp\wp-admin\admin.php:175
+[12-Apr-2024 07:30:00 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[12-Apr-2024 07:30:00 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[12-Apr-2024 07:30:00 UTC] PHP   6. wp_admin_headers('') C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:324
+[12-Apr-2024 07:30:00 UTC] PHP   7. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') C:\wamp64\www\exowp\wp-admin\includes\misc.php:1439
+[12-Apr-2024 07:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:31) in C:\wamp64\www\exowp\wp-includes\functions.php on line 7096
+[12-Apr-2024 07:30:00 UTC] PHP Stack trace:
+[12-Apr-2024 07:30:00 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:30:00 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:30:00 UTC] PHP   3. do_action($hook_name = 'admin_init') C:\wamp64\www\exowp\wp-admin\admin.php:175
+[12-Apr-2024 07:30:00 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\exowp\wp-includes\plugin.php:517
+[12-Apr-2024 07:30:00 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:348
+[12-Apr-2024 07:30:00 UTC] PHP   6. send_frame_options_header() C:\wamp64\www\exowp\wp-includes\class-wp-hook.php:322
+[12-Apr-2024 07:30:00 UTC] PHP   7. header($header = 'X-Frame-Options: SAMEORIGIN') C:\wamp64\www\exowp\wp-includes\functions.php:7096
+[12-Apr-2024 07:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:31) in C:\wamp64\www\exowp\wp-admin\admin-header.php on line 9
+[12-Apr-2024 07:30:00 UTC] PHP Stack trace:
+[12-Apr-2024 07:30:00 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:30:00 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:30:00 UTC] PHP   3. require_once() C:\wamp64\www\exowp\wp-admin\admin.php:239
+[12-Apr-2024 07:30:00 UTC] PHP   4. header($header = 'Content-Type: text/html; charset=UTF-8') C:\wamp64\www\exowp\wp-admin\admin-header.php:9
+[12-Apr-2024 07:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:31) in C:\wamp64\www\exowp\wp-includes\option.php on line 1486
+[12-Apr-2024 07:30:00 UTC] PHP Stack trace:
+[12-Apr-2024 07:30:00 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:30:00 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:30:00 UTC] PHP   3. require_once() C:\wamp64\www\exowp\wp-admin\admin.php:239
+[12-Apr-2024 07:30:00 UTC] PHP   4. wp_user_settings() C:\wamp64\www\exowp\wp-admin\admin-header.php:86
+[12-Apr-2024 07:30:00 UTC] PHP   5. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1744443000, $path = '/exowp/', $domain = '', $secure = FALSE) C:\wamp64\www\exowp\wp-includes\option.php:1486
+[12-Apr-2024 07:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\exowp\wp-content\themes\exotheme\functions.php:31) in C:\wamp64\www\exowp\wp-includes\option.php on line 1487
+[12-Apr-2024 07:30:00 UTC] PHP Stack trace:
+[12-Apr-2024 07:30:00 UTC] PHP   1. {main}() C:\wamp64\www\exowp\wp-admin\themes.php:0
+[12-Apr-2024 07:30:00 UTC] PHP   2. require_once() C:\wamp64\www\exowp\wp-admin\themes.php:10
+[12-Apr-2024 07:30:00 UTC] PHP   3. require_once() C:\wamp64\www\exowp\wp-admin\admin.php:239
+[12-Apr-2024 07:30:00 UTC] PHP   4. wp_user_settings() C:\wamp64\www\exowp\wp-admin\admin-header.php:86
+[12-Apr-2024 07:30:00 UTC] PHP   5. setcookie($name = 'wp-settings-time-1', $value = 1712907000, $expires_or_options = 1744443000, $path = '/exowp/', $domain = '', $secure = FALSE) C:\wamp64\www\exowp\wp-includes\option.php:1487
