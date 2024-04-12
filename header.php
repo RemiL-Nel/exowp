@@ -2,7 +2,11 @@
 <?php 
 $menu_name = 'headermenu'; //menu slug
 $menu = wp_get_nav_menu_object( $menu_name );
-$menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
+if (is_object($menu)) {
+    $menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
+} else {
+    $menuitems = array();
+}
 ?>
 
 <head>

@@ -10,11 +10,19 @@ function theme_exo_load_style() {
 // charger le style du theme et le script du carousel
 add_action('wp_enqueue_scripts', 'theme_exo_load_script_slider');
 function theme_exo_load_script_slider() {
+    wp_enqueue_style(
+        'theme-exo-slider-style',
+        get_template_directory_uri() . '/assets/css/slider.css',
+        array(),
+        '1.0.0',
+        'all'
+    );
+
     wp_enqueue_script(
-        'theme-script',
-        get_template_directory_uri() . '/assets/js/script.js', 
-        array('jquery'), 
-        '1.0.0', 
+        'theme-exo-slider-script',
+        get_template_directory_uri() . '/assets/js/slider.js', 
+        array(), 
+        '1.0.3', 
         true
     );
 }
