@@ -22,14 +22,14 @@ function theme_exo_load_script_slider() {
 
 
 // Ajouter un menu pour le carousel
-add_action('admin_menu', 'carousel_mamanger');
-function carousel_mamanger(){
-    add_theme_page( 'Carousel Manager', 'Carousel Manager', 'administrator', 'carousel_display_menu', 'carousel_display_menu' );
+add_action('admin_menu', 'theme_exo_carousel_mamanger');
+function theme_exo_carousel_mamanger(){
+    add_theme_page( 'Carousel Manager', 'Carousel Manager', 'administrator', 'theme_exo_carousel_display_menu', 'theme_exo_carousel_display_menu' );
 }
 
 
 // page callback
-function carousel_display_menu() {
+function theme_exo_carousel_display_menu() {
     include_once('settings.php');
 }
 
